@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_get_single_user_location"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.demo_google_map.pulkit.activities.GetSingleUserLocation">
+
+    <fragment
+        android:id="@+id/map"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <EditText
+        android:id="@+id/editText_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/back"
+        android:hint="Search here"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:padding="8dp" />
+
+</FrameLayout>
+
+
+
+
